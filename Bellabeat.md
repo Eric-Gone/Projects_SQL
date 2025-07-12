@@ -1,4 +1,4 @@
-Case Notes
+# Case Notes
 - founded in 2013 
 - positioned as a tech-driven wellness company for women
 - by 2016, they had gone international with multiple products
