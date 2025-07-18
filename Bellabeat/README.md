@@ -8,6 +8,21 @@ from
 group by
   1;
 ````
+````sql
+select
+  table_name,
+  sum(case
+    when column_name="Id" then 1
+    else 0
+    end
+    ) as has_id_column
+from
+  `enduring-lane-416206.bellabeat.INFORMATION_SCHEMA.COLUMNS`
+group by
+  1
+order by
+  1 asc;
+````
 To determine and confirm any common columns across all tables. Id is common and will be useful for later JOINs
 ````sql
 select
